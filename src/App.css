@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f7fa; /* Soft pastel background */
+}
+
+/* Container for Login, Register, and Home */
+.container {
+  background: #ffffff; /* Clean white card */
+  padding: 20px;
+  width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  margin: 40px auto;
+}
+
+/* Input Fields */
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 16px;
+  background: #f8fafc; /* Soft input background */
+  color: #374151;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #a78bfa, #7dd3fc); /* Gradient aesthetic */
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #7dd3fc, #a78bfa); /* Reverse gradient */
+  transform: scale(1.05);
+}
+
+/* Aesthetic Placeholder Styling */
+input::placeholder {
+  color: #9ca3af;
+  font-style: italic;
+}
